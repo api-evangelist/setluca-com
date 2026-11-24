@@ -1,4 +1,4 @@
-# setluca-com
+# SetLuca
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-setluca-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://setluca.com/
+SetLuca provides a DM sales platform that connects Instagram, Messenger, and Telegram to automatically reply, qualify leads, and book calls. Built for coaches, experts, creators, and agencies, it offers a free 7‑day trial and tiered pricing for scaling businesses. The service emphasizes privacy, no password sharing, and does not train shared AI models.
+
+**Areas:** DM sales · Messaging automation · Instagram · Messenger · Telegram
+
+## SetLuca on APIs.io
+
+Everything profiled for SetLuca is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/setluca-com/](https://apis.io/providers/setluca-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SetLuca API](https://apis.io/apis/setluca-com/setluca-com-api/) — SetLuca API as documented publicly: 86 operations. Contract generated from the documentation by API Evangelist (2026-11-24); not the provider's own document.
+- [SetLuca Openapi API](https://apis.io/apis/setluca-com/setluca-openapi-api/) — The Luca API is the same surface the coach dashboard runs on. Every endpoint is
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (12)
+
+The data models the API reads and writes.
+
+- [BroadcastDetail](https://apis.io/schemas/setluca-com/setluca-com-broadcast-detail/)
+- [CampaignDetail](https://apis.io/schemas/setluca-com/setluca-com-campaign-detail/)
+- [CampaignGenerateResponse](https://apis.io/schemas/setluca-com/setluca-com-campaign-generate-response/)
+- [ConversationDetailResponse](https://apis.io/schemas/setluca-com/setluca-com-conversation-detail-response/)
+- [GetApiCampaignsIdResponse](https://apis.io/schemas/setluca-com/setluca-com-get-api-campaigns-id-response/)
+- [GetApiLeadsResponse](https://apis.io/schemas/setluca-com/setluca-com-get-api-leads-response/)
+- [PostApiBookingsTypesIdAttendeesRequest](https://apis.io/schemas/setluca-com/setluca-com-post-api-bookings-types-id-attendees-request/)
+- [PostApiBookingsTypesIdAttendeesResponse](https://apis.io/schemas/setluca-com/setluca-com-post-api-bookings-types-id-attendees-response/)
+- [ProviderLabFaultRequest](https://apis.io/schemas/setluca-com/setluca-com-provider-lab-fault-request/)
+- [PutApiBookingsCalendarsRequest](https://apis.io/schemas/setluca-com/setluca-com-put-api-bookings-calendars-request/)
+- [PutApiBookingsTypesIdScheduleRequest](https://apis.io/schemas/setluca-com/setluca-com-put-api-bookings-types-id-schedule-request/)
+- [ReviewListResponse](https://apis.io/schemas/setluca-com/setluca-com-review-list-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Setluca Com Context](https://apis.io/jsonld/setluca-com/setluca-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SetLuca API Rules](https://apis.io/rules/setluca-com/setluca-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SetLuca Authentication](https://apis.io/security/setluca-com/setluca-com-authentication/)
+- [SetLuca Domain Security](https://apis.io/security/setluca-com/setluca-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SetLuca Plans Pricing](https://apis.io/plans/setluca-com/setluca-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [SetLuca Rate Limits](https://apis.io/rate-limits/setluca-com/setluca-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://setluca.com/)
+- [Getting started](https://setluca.com/blog/click-to-messenger-ads-for-coaches/index)
+- [API reference](https://api.setluca.com/docs)
+- [Pricing](https://setluca.com/pricing)
+- [Blog](https://setluca.com/blog)
+- [Trust centre](https://setluca.com/trust)
+- [Terms of service](https://setluca.com/terms)
+- [Privacy policy](https://setluca.com/privacy)
+- [GitHub](https://github.com/setluca)
+
+## API Evangelist rating
+
+**Kin Score 59.3** — strong · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 33.7 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 81.1 |
+
+**Agent readiness 47.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/setluca-com/](https://apis.io/providers/setluca-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SetLuca: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/setluca-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
